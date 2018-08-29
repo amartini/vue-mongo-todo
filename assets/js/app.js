@@ -34,6 +34,9 @@
         ready: function () {
           this.tasks = this.getTasks();
         },
+        mounted: function () {
+          this.tasks = this.getTasks();
+        },
         methods: {
 
           getTasks: function () {
